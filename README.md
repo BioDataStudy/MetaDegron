@@ -57,9 +57,7 @@ MetaDegron serves as a useful tool for predicting targeted degrons of 21 E3 liga
 
 ### Input: 
 1. Job identifier: Job identifier can be generated automatically or customized by the submitter. It is confidential to other users and can be used for job status monitoring and result retrieval.(See Results page).It is required.
-2. TCR input: Please input TCR repertoires below. Each row contains a TCR record (CDR3a, TRAV gene, CDR3b, TRBV gene) and separated by commas.
-1.Job identifier: Job identifier can be generated automatically or customized by the submitter. It is confidential to other users and can be used for job status monitoring and result retrieval.(See Results page).It is required.\n
-2. E3 ligase: The MetaDegron 1.0 server supports 21 E3 ligase prediction. We constructed a classification tree of E3 ligase. Users can quickly retrieve and submit candidate E3 through the search box and tree map.\n
+2. E3 ligase: The MetaDegron 1.0 server supports 21 E3 ligase prediction. We constructed a classification tree of E3 ligase. Users can quickly retrieve and submit candidate E3 through the search box and tree map.
 3. Sequence: User can directly copy one or more proteins with FASTA format in the input box.\n
 4. Operation buttons: Submit, reset the submission form, or access the example dataset.
 
