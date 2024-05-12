@@ -3,7 +3,7 @@
 
 Protein degradation via the ubiquitin proteasome system (UPS) at the spatial and temporal regulation is essential for many cellular processes. E3 ligases and degrons, the sequences they recognize in the target proteins, are key parts of the ubiquitin-mediated proteolysis, and their interactions determine the degradation specificity and maintain cellular homeostasis. So far, only a small number of targeted degron instances have been identified, and their properties remain to be systematically characterized. To tackle on this great challenge, here we develop a novel deep-learning framework, namely MetaDegron for predicting E3 ligase targeted degron by integrating the protein language model and comprehensive featurization strategies. Through extensive evaluation on benchmark datasets and comparison with state-of-the-art method, we demonstrate the superior performance of MetaDegron in terms of prediction accuracy. Among functional features, MetaDegron allows batch prediction of targeted degrons of 21 E3 ligases, and provides functional annotations and visualization of multiple degron-related structural and physicochemical features. MetaDegron is freely available at http://modinfor.com/MetaDegron/. We anticipate MetaDegron can serve as a useful tool for the clinical and translational community to elucidate the mechanisms of regulation of protein homeostasis, cancer research, and drug development.
 
-<div align=center><img src="https://bioinfo.uth.edu/DeepTR/images/Picture1.png" width="800px"></div>
+<div align=center><img src="http://modinfor.com/MetaDegron/images/index_workflow.png" width="800px"></div>
 
 # Installation
 Download DeepTR by
