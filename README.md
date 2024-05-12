@@ -51,20 +51,19 @@ The workflow of the MetaDegron online server is illustrated below. The informati
 <div align=center><img src="https://bioinfo.uth.edu/DeepTR/images/Picture5.png" width="600px"></div>
 
 ## Usage
-This online tool requires TCR repertoires through bulk or single-cell methods, including paired TCRα & β sequences of CDRs and V genes. Candidate antigens and HLA alleles also need be specified. The top ranked interaction between TCR and pMHC in each HLA allele would be visualized in an interactive way on the output page after a few minutes of running time. The whole prediction results, which are well organized in table format, could also be obtained, and downloaded. The testing has been conducted by multiple users from different countries. Tutorial is at https://bioinfo.uth.edu/DeepTR/Tutorial.php.
+MetaDegron serves as a useful tool for predicting targeted degrons of 21 E3 ligases, offering researchers possible candidates for studying protein degradation pathways and identifying potential therapeutic targets. The multimodal feature integration approach enables MetaDegron to capture diverse aspects of degron recognition, including amino acid composition, physicochemical properties, evolutionary conservation, and contextual dependencies, thereby enhancing its capabilities for advancing research in the field of protein degradation and ubiquitin-mediated proteolysis. The webserver of MetaDegron was designed and constructed with a modular and user-friendly manner. Three major modules, including “Run”, “Results” and “Tutorial”, are the kernel of MetaDegron online server. The ‘Run’ module sequentially controls the execution of submitted jobs, including the input checking, job submitting, job running, and task terminates. Meanwhile, the “Results” module records the submission jobs, monitors the status of jobs, and immediately shows the prediction results. The clickable and searchable hierarchical classification tree of E3s is loaded for the selection of single or multiple E3 ligases. Then, one or more protein sequences in FASTA format can be submitted. After finishing the submitted job, the prediction results will be visualized with specific information, including the “Entry”, “E3 ligase”, “Degron instance”, “Degron type”, “Start”, “End”, and “Score”. It displays the detailed information for degron and source protein 
 
 <div align=center><img src="http://modinfor.com/MetaDegron/images/input.png" width="700px"></div>
 
 ### Input: 
-1. Job identifier: Job identifier can be generated automatically or customized by the submitter. It is confidential to other users and can be used for job status monitoring and result retrieval.(See Results page).It is required.
-2. TCR input: Please input TCR repertoires below. Each row contains a TCR record (CDR3a, TRAV gene, CDR3b, TRBV gene) and separated by commas.
-3. Antigen input: The user can directly copy the antigens in the input box. The length of the antigens should be 8-15 mer.
-4. HLA alleles: The DeepTCR 1.0 server predicts pMHC-TCR binding to more than >100 well studied human MHC molecule. We constructed a classification tree of HLA. Users can quickly retrieve and submit candidate HLA alleles through the search box and tree map. Each submitted task is allowed to select up to 10 HLA alleles.
-5. Operation buttons: Submit, reset the submission form, or access the example dataset.
+1.Job identifier: Job identifier can be generated automatically or customized by the submitter. It is confidential to other users and can be used for job status monitoring and result retrieval.(See Results page).It is required.
+2. E3 ligase: The MetaDegron 1.0 server supports 21 E3 ligase prediction. We constructed a classification tree of E3 ligase. Users can quickly retrieve and submit candidate E3 through the search box and tree map.
+3. Sequence: User can directly copy one or more proteins with FASTA format in the input box.
+4. Operation buttons: Submit, reset the submission form, or access the example dataset.
+
+
 
 ## Results
-The top ranked interaction between TCR and pMHC in each HLA allele would be visualized in a interactive way on the output page after a few minutes of running time. The whole prediction results, which are well organized in table format, could also be obtained and downloaded.
-
 <div align=center><img src="http://modinfor.com/MetaDegron/images/Annotation.png" width="550px"></div>
 
 # Citation
