@@ -62,7 +62,6 @@ MetaDegron serves as a useful tool for predicting targeted degrons of 21 E3 liga
 4. Operation buttons: Submit, reset the submission form, or access the example dataset.
 
 
-
 ## Results
 <div align=center><img src="http://modinfor.com/MetaDegron/images/Annotation.png" width="550px"></div>
 
