@@ -8,12 +8,12 @@ Protein degradation via the ubiquitin proteasome system (UPS) at the spatial and
 # Installation
 Download DeepTR by
 ```
-git clone https://github.com/BioDataStudy/DeepTR.git
+git clone https://github.com/BioDataStudy/MetaDegron.git
 ```
-Installation has been tested in Linux server, CentOS Linux release 7.8.2003 (Core), with Python 3.7. Since the package is written in python 3x, python3x with the pip tool must be installed. DeepTR uses the following dependencies: numpy, scipy, pandas, h5py, torch, allennlp, keras version=2.3.1, tensorflow=1.15 shutil, and pathlib. We highly recommend that users leave a message under the DeepTR issue interface (https://github.com/BioDataStudy/DeepTR/issue) when encountering any installation and running problems. We will deal with it in time. You can install these packages by the following commands:
+Installation has been tested in Linux server, CentOS Linux release 7.8.2003 (Core), with Python 3.7. Since the package is written in python 3x, python3x with the pip tool must be installed. MetaDegron uses the following dependencies: numpy, scipy, pandas, h5py, torch, allennlp, keras version=2.3.1, tensorflow=1.15 shutil, and pathlib. We highly recommend that users leave a message under the MetaDegron issue interface (https://github.com/BioDataStudy/MetaDegron/issue) when encountering any installation and running problems. We will deal with it in time. You can install these packages by the following commands:
 ```
-conda create -n DeepTR python=3.7
-conda activate DeepTR
+conda create -n MetaDegron python=3.7
+conda activate MetaDegron
 pip install pandas
 pip install numpy
 pip install scipy
