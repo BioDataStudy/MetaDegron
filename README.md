@@ -42,26 +42,18 @@ For details of other parameters, run:
 ```
 python DeepTR_Prediction.py --help
 ```
-### test_tcr.csv: test csv file with 6 columns named as "CDR3a,CDR3a_V,CDR3b,CDR3b_V,Antigens,HLA_alleles": TCR-alpha CDR3 sequence, TCR-alpha V gene, TCR-beta CDR3 sequence, TCR-beta V gene, peptide sequence, and HLA allele. 
-
-<div align=center><img src="https://bioinfo.uth.edu/DeepTR/images/input_example_3.png" width="800px"></div>
-
-### DeepTR_predictions.tsv: result file includes the score of peptide binding to HLA and score of binding between pHLA and TCR. 
-
-<div align=center><img src="https://bioinfo.uth.edu/DeepTR/images/out_example_3.png" width="800px"></div>
-
 # Web Server
-Researchers can run DeepTR online at https://bioinfo.uth.edu/DeepTR. For commercial usage inquiries, please contact the authors. 
+Researchers can run DeepTR online at http://modinfor.com/MetaDegron/. For commercial usage inquiries, please contact the authors. 
 
 ## Workflow of web portal
-The workflow of the DeepTR online server is illustrated below. The information given is initially checked by the web server for proper formatting and TCR records, among other things. DeepTR launches a new job and changes the state of the work to "Running" after the input data is checked for correct format. Otherwise, DeepTR moves the new work to the bottom of the queue and changes its status to "Pending." Users are then routed to a website for tracking the job status after a job is successfully submitted, where the status is updated every 10 seconds until the task is complete. Through the unique job identifier, which can be generated automatically or customized by the submitter, users are able to monitor the job status and retrieve the result. .
+The workflow of the MetaDegron online server is illustrated below. The information given is initially checked by the web server for proper formatting, among other things. MetaDegron launches a new job and changes the state of the work to "Running" after the input data is checked for correct format. Otherwise, MetaDegron moves the new work to the bottom of the queue and changes its status to "Pending." Users are then routed to a website for tracking the job status after a job is successfully submitted, where the status is updated every 10 seconds until the task is complete. Through the unique job identifier, which can be generated automatically or customized by the submitter, users are able to monitor the job status and retrieve the result. 
 
 <div align=center><img src="https://bioinfo.uth.edu/DeepTR/images/Picture5.png" width="600px"></div>
 
 ## Usage
 This online tool requires TCR repertoires through bulk or single-cell methods, including paired TCRα & β sequences of CDRs and V genes. Candidate antigens and HLA alleles also need be specified. The top ranked interaction between TCR and pMHC in each HLA allele would be visualized in an interactive way on the output page after a few minutes of running time. The whole prediction results, which are well organized in table format, could also be obtained, and downloaded. The testing has been conducted by multiple users from different countries. Tutorial is at https://bioinfo.uth.edu/DeepTR/Tutorial.php.
 
-<div align=center><img src="https://bioinfo.uth.edu/DeepTR/images/Picture6.png" width="700px"></div>
+<div align=center><img src="http://modinfor.com/MetaDegron/images/input.png" width="700px"></div>
 
 ### Input: 
 1. Job identifier: Job identifier can be generated automatically or customized by the submitter. It is confidential to other users and can be used for job status monitoring and result retrieval.(See Results page).It is required.
@@ -73,7 +65,7 @@ This online tool requires TCR repertoires through bulk or single-cell methods, i
 ## Results
 The top ranked interaction between TCR and pMHC in each HLA allele would be visualized in a interactive way on the output page after a few minutes of running time. The whole prediction results, which are well organized in table format, could also be obtained and downloaded.
 
-<div align=center><img src="https://bioinfo.uth.edu/DeepTR/images/Picture7.png" width="550px"></div>
+<div align=center><img src="http://modinfor.com/MetaDegron/images/Annotation.png" width="550px"></div>
 
 # Citation
-Please cite the following paper for using: Xu H, Zhao Z. Prediction and characterization of T cell response by improved T cell receptors to antigen specificity with interpretable deep learning. In submission.
+Please cite the following paper for using: Multimodal feature-integrated protein language model for predicting E3 ligase targeted degrons. In submission.
