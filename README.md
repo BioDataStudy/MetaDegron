@@ -32,16 +32,6 @@ pip install h5py==2.10.0
 ### Please download large protein language model from the https://bioinfo.uth.edu/DeepTR/download/weights.hdf5. Note: right click - > save the link
 ### Copy or move the weights.hdf5 file to the models\uniref50_v2\ directory to ensure that the model is preloaded successfully
 
-Please cd to the folder which contains DeepTR_Prediction.py.
-```
-cd DeepTR_Prediction/
-
-python DeepTR_Prediction.py -inf './data/test_tcr.txt' -out './prediction'
-```
-For details of other parameters, run:
-```
-python DeepTR_Prediction.py --help
-```
 # Web Server
 Researchers can run DeepTR online at http://modinfor.com/MetaDegron/. For commercial usage inquiries, please contact the authors. 
 
