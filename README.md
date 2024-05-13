@@ -29,7 +29,7 @@ pip install h5py==2.10.0
 
 # Usage
 
-### Please download large protein language model from the https://bioinfo.uth.edu/DeepTR/download/weights.hdf5. Note: right click - > save the link
+### Please download large protein language model from the http://modinfor.com/MetaDegron/Download/weights.hdf5. Note: right click - > save the link
 ### Copy or move the weights.hdf5 file to the models\uniref50_v2\ directory to ensure that the model is preloaded successfully
 
 # Web Server
