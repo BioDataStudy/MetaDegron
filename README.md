@@ -33,7 +33,7 @@ pip install h5py==2.10.0
 ### Copy or move the weights.hdf5 file to the models\uniref50_v2\ directory to ensure that the model is preloaded successfully
 
 # Web Server
-Researchers can run DeepTR online at http://modinfor.com/MetaDegron/. For commercial usage inquiries, please contact the authors. 
+Researchers can run MetaDegron online at http://modinfor.com/MetaDegron/. For commercial usage inquiries, please contact the authors. 
 
 ## Workflow of web portal
 The workflow of the MetaDegron online server is illustrated below. The information given is initially checked by the web server for proper formatting, among other things. MetaDegron launches a new job and changes the state of the work to "Running" after the input data is checked for correct format. Otherwise, MetaDegron moves the new work to the bottom of the queue and changes its status to "Pending." Users are then routed to a website for tracking the job status after a job is successfully submitted, where the status is updated every 10 seconds until the task is complete. Through the unique job identifier, which can be generated automatically or customized by the submitter, users are able to monitor the job status and retrieve the result. 
