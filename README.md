@@ -6,7 +6,7 @@ Protein degradation via the ubiquitin proteasome system (UPS) at the spatial and
 <div align=center><img src="http://modinfor.com/MetaDegron/images/index_workflow.png" width="800px"></div>
 
 # Installation
-Download DeepTR by
+Download MetaDegron by
 ```
 git clone https://github.com/BioDataStudy/MetaDegron.git
 ```
