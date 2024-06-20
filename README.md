@@ -32,6 +32,9 @@ pip install h5py==2.10.0
 ### Please download large protein language model from the http://modinfor.com/MetaDegron/Download/weights.hdf5. Note: right click - > save the link
 ### Copy or move the weights.hdf5 file to the models\uniref50_v2\ directory to ensure that the model is preloaded successfully
 
+### Please download the training dataset (>200M, Unable to upload to github) from the http://modinfor.com/MetaDegron/Download/all_train_embedding.npy. Note: right click - > save the link
+### Copy or move the all_train_embedding.npy file to the data/ directory to ensure that the train_embedding can be loaded successfully
+
 # Web Server
 Researchers can run MetaDegron online at http://modinfor.com/MetaDegron/. For commercial usage inquiries, please contact the authors. 
 
